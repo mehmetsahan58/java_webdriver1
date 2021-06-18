@@ -32,6 +32,8 @@ public class BaseTests {
         WebElement inputsLink = driver.findElement(By.linkText("Inputs"));
         inputsLink.click();
 
+
+
         System.out.println (driver.getTitle());
 
         //driver.quit();
