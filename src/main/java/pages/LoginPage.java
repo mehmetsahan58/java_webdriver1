@@ -11,7 +11,7 @@ public class LoginPage {
 
     private By passwordField = By.id("password");
 
-    private By loginButton = By.cssSelector();
+    private By loginButton = By.cssSelector("#login button");
 
     public LoginPage (WebDriver driver) {
 
