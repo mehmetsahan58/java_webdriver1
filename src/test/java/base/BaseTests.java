@@ -26,11 +26,11 @@ public class BaseTests {
 
 
 
-        List<WebElement> links = driver.findElements(By.tagName("a"));
-        System.out.println (links.size());
-
-        WebElement inputsLink = driver.findElement(By.linkText("Inputs"));
-        inputsLink.click();
+//        List<WebElement> links = driver.findElements(By.tagName("a"));
+//        System.out.println (links.size());
+//
+//        WebElement inputsLink = driver.findElement(By.linkText("Inputs"));
+//        inputsLink.click();
 
 
 
